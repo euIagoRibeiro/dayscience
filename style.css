@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import url(styles/reset.css);
+@import url(styles/header.css);
+@import url(styles/sections.css);
+@import url(styles/footer.css);
+@import url(styles/media.css);
+
+:root {
+    --primary-font: "Krona one", sans-serif;
+    --second-font: "Montserrat", sans-serif;
+    --number-font: "Manrope", sans-serif;
+    --text-color: white;
+}
+
+html, body {
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: var(--primary-font);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-hover {
+    transition: .4s;
+}
+
+.text-hover:hover {
+    transform: scale(1.05);
+}
