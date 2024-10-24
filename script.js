@@ -1,3 +1,26 @@
+
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header-container')
+    const triggerPoint = 200;
+
+    if (window.scrollY > triggerPoint) {
+        header.classList.remove('fixed');
+    } else {
+        header.classList.add('fixed');
+    }
+})
+
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header-container')
+    const triggerPoint = header.offsetHeight;
+
+    if (window.scrollY > triggerPoint) {
+        header.classList.add('hidden');
+    } else {
+        header.classList.remove('hidden');
+    }
+})
+
 const formulario = document.querySelector('#formulario')
 
 function menuShow() {
