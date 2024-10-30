@@ -1,11 +1,18 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-@import url(styles/reset.css);
 @import url(styles/header.css);
-@import url(styles/sections.css);
+@import url(styles/section-1.css);
+@import url(styles/section-2.css);
+@import url(styles/section-3.css);
+@import url(styles/section-4.css);
 @import url(styles/footer.css);
-@import url(styles/media.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
 
 :root {
     --primary-font: "Krona one", sans-serif;
