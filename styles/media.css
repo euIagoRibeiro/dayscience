@@ -1,21 +1,3 @@
-/* @media (min-width: 350px) and (max-width: 375px) {
-    .header-content {
-        gap:80px
-    }
-} */
-
-/* @media (min-width: 414px) and (max-width: 425px) {
-    .header-content {
-        gap:7rem;
-    }
-} */
-
-/* @media (min-width: 420px) and (max-width: 425px) {
-    .header-content {
-        gap:115px
-    }
-} */
-
 @media (min-width: 850px) {
 
     /* HEADER */
